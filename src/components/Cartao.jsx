@@ -1,12 +1,12 @@
 import React from "react";
-import "./cartao.css";
+import "../components/Cartao.css";
 import logoBK from "../assets/Burger_King_logo_(1999).svg.png"; 
 
 const Cartao = () => {
   return (
     <div className="cartao-bk">
       <div className="logo-container">
-        <img src={logoBK} alt="Burger King Logo" className="logo" />
+        <img src={logoBK} alt="" className="logo" />
       </div>
       <div className="info">
         <h2>Burger King</h2>
