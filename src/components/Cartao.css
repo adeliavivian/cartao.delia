@@ -1,0 +1,74 @@
+.cartao-bk {
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    border: 2px solid #d62300;
+    border-radius: 15px;
+    background: #e4dbdb;
+    box-shadow: 0 0 11px rgba(255, 0, 0, 0.61);
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .logo-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .info h2 {
+    color: #d62300;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .info p {
+    margin: 10px 0;
+    color: #ff0000;
+    font-size: 16px;
+    word-break: break-word;
+  }
+  
+  .info a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .info a:hover {
+    text-decoration: underline;
+  }
+  
+  .botao-pedir {
+    margin-top: auto;
+    padding: 15px 20px;
+    background-color: #d62300;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s;
+    display: inline-block;
+  }
+  
+  .botao-pedir:hover {
+    background-color: #ff4b4b;
+  }
+  
